@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background: #d8e7fe;
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  font-family: 'Uchen', sans-serif;
+  text-align: center;
+}
+h1 {
+  color: #5c577d;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #6031e2;
+  font-size: 30px;
+  font-weight: lighter;
+  font-weight: 500;
+  font-family: 'Uchen';
+}
+
+
+div {
+  margin: 10px;
+}
+
+a {
+  word-spacing: 1%;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  transition-delay: 0.2s;
+}
+
+.btn-yellow {
+  margin: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border-color: #6B72E1;
+  padding:10px;
+  width: 220px;
+  font-size: 18px;
+}
+
+.btn-yellow:hover {
+  color: #565264;
+  background-color: rgb(70, 139, 199);
+  transition-delay: 0.2s;
+}
+
+a:hover {
+  color: #565264;
+}
+
+.container {
+
+  border:solid;
+  border-color: rgba(10, 15, 58, 0.1);
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center;
+  width: 520px;
+  background-color: rgb(224, 240, 255);
+  box-shadow: 10px 5px 30px #d8efff;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-right:45px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.fab {
+  font-size: 100px;
+  margin: 10px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+}
+
+#profile {
+  border-radius: 50%;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
